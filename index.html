@@ -4,9 +4,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <title>Loja de Roupas</title>
 </head>
 <body>
-    
+    <nav class="navbar has-shadow is-light">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="assets/logo.png" alt="Logo" class="py-2 px-2" style="max-height: 60px">
+            </a>
+            <a class="navbar-burger my-3" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a href="" class="navbar-item">Minha conta</a>
+                <a href="" class="navbar-item">Carrinho (0)</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-3-desktop">
+                    <h1 class="is-size-3-mobile is-size-3-desktop title">CAMISETA SUPREME MIKE TYSON</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, itaque, maxime natus
+                        corrupti
+                        facilis voluptatibus reiciendis aliquam repellat ipsum quidem quisquam consequatur a laudantium
+                        repellendus quaerat eius exercitationem. Inventore, quasi!
+                    </p>
+                </div>
+                <div class="column is-6-tablet is-5-desktop has-text-centered">
+                    <img src="//d3ugyf2ht6aenh.cloudfront.net/stores/001/235/936/products/whatsapp-image-2022-02-08-at-09-48-241-75eed7294888104d8516444135552242-1024-10241-fac972c065d7ef91cb16463419001273-640-0.jpeg" alt="CAMISETA SUPREME MIKE TYSON" class="px-6">
+                </div>
+                <div class="column is-12-tablet is-4-desktop">
+                    <div class="is-size-4 mb-4">R$9.541,60</div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam?</p>
+                    <form>
+                        <div class="field">
+                            <div class="control mb-4">
+                                <div class="select is-dark">
+                                    <select>
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                        <option>XL</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="button is-dark">Comprar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-variable">
+                <div class="column">
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="product-details">
+                                <a>Detalhes do produto</a>
+                            </li>
+                            <li data-target="delivery-information">
+                                <a>Informação de entrega</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Detalhes do produto</h3>
+                            <p>Malha 100% algodão.</p>
+                            <p>Estampa em silk</p>
+                            <p>Excelente qualidade e durabilidade</p>
+                        </div>
+                        <div id="delivery-information" class="is-hidden">
+                            <h3 class="is-size-5 title">Informação de entrega</h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quasi aspernatur repellat
+                                atque! Provident dolorum asperiores placeat perspiciatis nulla non ut distinctio et
+                                autem possimus! Aut, cumque. Dicta, aut ab?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section is-hidden-mobile">
+        <div class="container">
+            <h3 class="title has-text-centered is-size-4">Produtos relacionados</h3>
+
+            <div class="columns mt-5 is-8 is-variable is-centered">
+                <div class="column is-4-table is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="//d3ugyf2ht6aenh.cloudfront.net/stores/001/235/936/products/whatsapp-image-2021-09-16-at-09-49-211-b905d1fb08e8c4b9d416317974848413-640-0.jpeg" alt="CAMISETA NIKE X STUSSY">
+                        </div>
+                        <div class="card-content">
+                            <p>R$758,57</p>
+                            <p class="title is-size-5">CAMISETA NIKE X STUSSY</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-4-table is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="//d3ugyf2ht6aenh.cloudfront.net/stores/001/235/936/products/bape-camo-roxo-bk1-9af79da4ee5583c24c15971745827589-1024-10241-156eb102b2b18d325816463415633608-640-0.jpg" alt="CAMISETA BAPE BIG APE PURPLE">
+                        </div>
+                        <div class="card-content">
+                            <p>R$801,49</p>
+                            <p class="title is-size-5">CAMISETA BAPE BIG APE PURPLE</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-4-table is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="//d3ugyf2ht6aenh.cloudfront.net/stores/001/235/936/products/astroworld-wish_frente1-9abb987c79bdec008d15923407738680-640-0.jpg" alt="CAMISETA ASTROWORLD WISH">
+                        </div>
+                        <div class="card-content">
+                            <p>R$1.908,32</p>
+                            <p class="title is-size-5">CAMISETA ASTROWORLD WISH</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content has-background-white py-5 px-5">
+            <h3 class="title has-text-centered">Join The Club</h3>
+
+            <form>
+                <div class="field">
+                    <label for="name" class="label">Name</label>
+                    <div class="control has-icons-left">
+                        <input type="text" class="input" placeholder="John Smith">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i>
+                          </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="email" class="label">Email</label>
+                    <div class="control has-icons-left">
+                        <input type="email" class="input" placeholder="eg@eg.com">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                          </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <label for="agree" class="checkbox">
+                            <input type="checkbox" class="checkbox">
+                            I agree to the <a href="#">terms and conditions</a>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-link">Sign Up</button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-link is-light">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Copyright 2022 Arthur Schumacher</p>
+        </div>
+    </footer>
 </body>
+<script src="js/script.js"></script>
 </html>
